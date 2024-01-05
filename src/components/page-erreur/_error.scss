@@ -1,0 +1,25 @@
+.error{
+    color: $color-pricipal;  
+  height: 66vh; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+        .error-404{
+            font-weight: 700;
+            margin: 0;
+            font-size: 10rem;            
+        }
+        .link{
+            color: $color-pricipal;
+        }
+        @media screen and (max-width: 768px){
+            .error-404{
+                font-size: 4rem; 
+            }
+           
+            .message-error{
+                width: 27%;
+            }
+        } 
+}

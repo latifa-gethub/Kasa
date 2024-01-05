@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Montserrat:wght@500;700&family=Raleway:ital,wght@0,400;0,600;1,100&family=Roboto:ital@1&display=swap');
+@import 'variables.scss';
+@import '../components/header/header';
+@import 'utilities';
+@import '../components/footer/footer';
+@import '../components/logement/tags/tags';
+@import '../components/logement/infoLogement/infologement';
+ 
+@import '../components/page-erreur/error';
+@import '../components/home-page/cards';
+@import '../components/apropos/apropos';
+@import '../components/logement/collapsesLogement';
+@import '../components/logement/carroussel/carrousel';
+@import 'placeholders';
+@import 'mediaQuery';
+
+  .hero{
+    color: $white;
+  background-color: $black;
+  border-radius: 25px;  
+  height: 23vh;
+  display: flex;   
+  align-items: center;
+  justify-content: center;
+} 
+.image-hero{
+    width: 100%;
+}

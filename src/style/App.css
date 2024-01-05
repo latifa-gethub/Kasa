@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Montserrat:wght@500;700&family=Raleway:ital,wght@0,400;0,600;1,100&family=Roboto:ital@1&display=swap");
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo-header {
+  width: 200px;
+  height: 50px;
+}
+.header .link-header {
+  width: 13rem;
+  display: flex;
+  justify-content: space-around;
+}
+.header .link-header .link {
+  color: #FF6060;
+}
+
+:root {
+  font-family: "Montserrat";
+  max-width: 1440px;
+}
+
+.container-body {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.container-wrapper {
+  width: 90%;
+  padding: 3rem;
+}
+
+.footer {
+  background-color: #000000;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+}
+.footer .logo-footer {
+  width: 3rem;
+  height: 1rem;
+}
+.footer .right {
+  color: #ffffff;
+}
+
+.button-tag {
+  background-color: #FF6060;
+  color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+  font-size: 11px;
+  height: 16px;
+}
+
+.infoLogement {
+  color: #FF6060;
+}
+.infoLogement .title-host {
+  display: flex;
+  justify-content: space-between;
+}
+.infoLogement img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.infoLogement .host {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.tags-rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: #FF6060;
+  height: 66vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.error .error-404 {
+  font-weight: 700;
+  font-size: 6rem;
+}
+.error .link {
+  color: #FF6060;
+}
+
+h1 {
+  position: absolute;
+  color: #ffffff;
+  bottom: 21rem;
+  left: 13rem;
+}
+
+.cards {
+  height: 312vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 22px;
+  background-color: #F6F6F6;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.cards .link-logement {
+  width: 30%;
+}
+.cards .link-logement .card-wrapper {
+  height: 200px;
+  position: relative;
+}
+.cards .link-logement .card-wrapper .img-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.cards .link-logement .card-wrapper .title-card {
+  position: absolute;
+  bottom: 1%;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.collapses {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.collapses .button-text-collapse {
+  width: 70%;
+  border-radius: 5px;
+  background-color: #F6F6F6;
+}
+.collapses .button-text-collapse .button-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: #FF6060;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+.collapses .button-text-collapse .text-collapse {
+  padding: 1rem;
+}
+
+.icon-up {
+  width: 40px;
+  height: 20px;
+}
+
+.collapses-legement {
+  display: flex;
+  justify-content: space-between;
+}
+.collapses-legement .button-text-collapse {
+  width: 45%;
+  border-radius: 5px;
+  background-color: #F6F6F6;
+}
+.collapses-legement .button-text-collapse .button-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: #FF6060;
+  height: 35px;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+.collapses-legement .button-text-collapse .text-collapse {
+  padding: 1rem;
+}
+
+.containerSlider {
+  position: relative;
+}
+.containerSlider .unactive-slider {
+  display: none;
+}
+.containerSlider .active-slider {
+  display: block;
+}
+.containerSlider .imgSlider {
+  width: 100%;
+  height: 50vh;
+  border-radius: 5px;
+}
+.containerSlider .btn-precedent, .containerSlider .btn-suivant {
+  position: absolute;
+  background-color: transparent;
+  border: none;
+  font-size: 47px;
+  top: 40%;
+  border-radius: 50px;
+  color: #ffffff;
+  padding: 5px;
+}
+.containerSlider .btn-suivant {
+  left: 95%;
+}
+.containerSlider span {
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  color: #ffffff;
+}
+
+/* .image-acuiel{
+    width: 95%;
+} */
+.hero {
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 25px;
+  height: 23vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-hero {
+  width: 100%;
+}/*# sourceMappingURL=App.css.map */

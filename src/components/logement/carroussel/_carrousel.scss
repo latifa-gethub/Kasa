@@ -1,0 +1,35 @@
+
+.containerSlider{
+    position: relative;
+    
+     .unactive-slider{
+        display: none;
+     }
+    .active-slider{
+        display: block;
+    }  
+     
+    .imgSlider{
+        width: 100%;
+        height: 50vh;
+        border-radius: 5px;
+        } 
+    .btn-precedent, .btn-suivant{
+        position: absolute;
+        background-color: transparent;
+        border: none;
+        font-size: 47px;
+        top: 40%;         
+        color: $white;     
+      
+     }
+     .btn-suivant{
+        left: 95%;
+     }
+     span{
+        position: absolute;
+        bottom: 7%;
+        left: 50%;
+        color: $white;
+     }
+}

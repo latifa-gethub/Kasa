@@ -1,0 +1,18 @@
+ 
+.footer{
+    height: 22vh;
+    background-color: $black; 
+    @extend %dfcc;
+    justify-content: center;
+        .logo-footer{
+            width: 3rem;
+            height: 1rem;
+        }
+        .right{
+            color: $white;            
+            @media screen and (max-width: 775px){
+                width: 15%;
+                font-size: 12px;
+            }
+        }
+}

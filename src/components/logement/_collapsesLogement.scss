@@ -1,0 +1,30 @@
+.collapses-legement{
+    @extend %dfsb;
+    @media screen and (max-width: 768px){
+        height: 6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+    }
+    .button-text-collapse{
+        width: 45%;
+        border-radius: 5px;
+        background-color: $grey-leight;
+        @media screen and (max-width: 768px){
+            width: 100%;
+        }
+        .button-icon{
+           @extend %dfsb;
+            align-items: center;
+            color: $white;
+            background-color: $color-pricipal;
+            height: 35px;
+            border-radius: 5px;
+            padding-left: 8px;
+        }
+        .text-collapse{
+            padding: 1rem;
+         }
+    }
+
+}

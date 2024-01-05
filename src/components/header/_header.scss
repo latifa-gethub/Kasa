@@ -1,0 +1,26 @@
+    
+    .header{
+        @extend %dfsb;
+        align-items: center;
+        margin: 1rem;
+        .logo-header{
+            width: 200px;
+            height: 50px;
+        }
+        .link-header{
+            width: 13rem;
+            display: flex;
+            justify-content: space-around;
+            @media screen and (max-width: 768px){
+                .linkHeader{
+                    text-transform: uppercase;
+                }
+            }            
+            a{
+                color: $color-pricipal;
+            }
+            .link-apropos{
+                text-decoration: none;
+            }   
+        }
+    }

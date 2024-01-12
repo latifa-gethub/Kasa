@@ -12,13 +12,12 @@ import Erreur from '../page-erreur/Erreur';
 
 function Logement() {
   const params = useParams();
-  console.log('objet params', params);
-  console.log('valeur params', params.id);
+  
   const idLogement = params.id;
 
   //recuperer le objet par rapport à id
   const logementClicker = data.find(logement => logement.id === idLogement);
-
+ 
   if (logementClicker === undefined) {
     return <Erreur />;
   }
@@ -43,13 +42,12 @@ function Logement() {
             <Rating rating={logementClicker.rating} />
           </div>
         </div>
-
         <div className="collapses-legement">
-          <Itemcollapse
+          <Itemcollapse key="description"
             category="Description"
             text={logementClicker.description}
           />
-          <Itemcollapse
+          <Itemcollapse key="equipements"
             category="Équipements"
             text={logementClicker.equipments.map(equipement =>
               <p key={equipement}>

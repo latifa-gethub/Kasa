@@ -13,8 +13,7 @@ function Router() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/logement/:id" element={<Logement />} />
-         
+        <Route path="/logement/:id" element={<Logement />} />         
         <Route path="/Apropos" element={<Apropos />} />
         <Route path="*" element={<Erreur />} />
       </Routes>

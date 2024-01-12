@@ -1,15 +1,14 @@
 .collapses-legement{
     @extend %dfsb;
-    @media screen and (max-width: 768px){
-        height: 6rem;
+    @media screen and (max-width: 768px){        
         display: flex;
         flex-direction: column;
-        justify-content: space-between; 
+        gap: 18px;         
     }
     .button-text-collapse{
         width: 45%;
         border-radius: 5px;
-        background-color: $grey-leight;
+        
         @media screen and (max-width: 768px){
             width: 100%;
         }
@@ -24,7 +23,9 @@
         }
         .text-collapse{
             padding: 1rem;
-         }
+            background-color: $grey-leight;
+            border-radius: 5px;
+         }  
     }
 
 }

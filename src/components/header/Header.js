@@ -1,12 +1,6 @@
 import React from 'react'; 
 import { Link } from 'react-router-dom';
-
-if (window.matchMedia("(min-width: 775px)").matches) {
   
-  
-}
-const link=document.querySelector(".link-accueil")
-  console.log("link eu",link)
 function Header() {
   return (     
  <nav className='header'>

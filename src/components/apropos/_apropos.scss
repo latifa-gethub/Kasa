@@ -4,8 +4,7 @@
   justify-content: space-around;
     .button-text-collapse{
         width: 70%;
-        border-radius: 5px;
-        background-color: $grey-leight;
+               
         @media screen and (max-width: 775px){
             width: 100%;
         }
@@ -20,6 +19,8 @@
         }
         .text-collapse{
             padding: 1rem;
+            background-color: $grey-leight;
+            border-radius: 5px;
          }
     }
 }

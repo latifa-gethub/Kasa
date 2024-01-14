@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
- const Carrousel = props => {
+const Carrousel = props => {
   const tabPictures = props.pictures;
   const nbPictures = tabPictures.length;
 

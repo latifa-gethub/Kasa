@@ -2,8 +2,7 @@ import React from "react";
 import {FaAngleDown, FaAngleUp } from 'react-icons/fa';
 import { useState } from "react";
 
-export default function Itemcollapse(props){
-    
+export default function Itemcollapse(props){    
      
   const [ isopen,setIsopen]=useState(false);
    
